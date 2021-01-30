@@ -1,10 +1,10 @@
 from chef import Chef
-from ChineseChef import ChineseChef
+from ChineseChef import chineseChef
 
 myChef = Chef()
 myChef.make_chicken()
 myChef.make_special_dish()
 
-myChineseChef = ChineseChef()
+myChineseChef = chineseChef()
 myChineseChef.make_chicken()
 myChineseChef.make_special_dish()

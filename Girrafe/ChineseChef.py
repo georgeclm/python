@@ -1,5 +1,5 @@
-from chef import Chef
-from newchef import newChef
+import chef
+import newchef
 
 # to use inheritance first import files then put it inside function in chinese chef
 
@@ -9,7 +9,7 @@ from newchef import newChef
 # so the inheritance order is based on the input first until last
 
 
-class ChineseChef(Chef, newChef):
+class chineseChef(chef.Chef, newchef.newChef):
     def make_special_dish(self):
         print("The chef makes Orange Chicken")
 

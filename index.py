@@ -6,6 +6,7 @@ b = Counter(a)
 # this is to print the values which mean the count
 for i in range(len(b)):
     print(i)
+
 print(len(b))
 print(list(b.values()))
 # this keys to print out the key that is going to get printed out value
@@ -57,4 +58,4 @@ print(e)
 # rotate element to the right 1 time and minus number to rotate to the left
 e.rotate(1)
 print(e)
-print(int(5/2))
+print(5//2)
